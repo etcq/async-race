@@ -1,0 +1,11 @@
+@use '../../../../../../styles/variables' as *;
+
+.winners-table-head {
+  height: 2rem;
+  color: $main-bg-color;
+  background-color: $secondary-text-color;
+
+  .head-cell {
+    border: 2px solid $main-text-color;
+  }
+}

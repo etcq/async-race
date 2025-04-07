@@ -1,0 +1,19 @@
+@use '../../../../../../styles/variables' as *;
+
+.modal {
+  border: none;
+
+  font-size: 2rem;
+  font-weight: bold;
+  color: $main-text-color;
+  text-shadow: 0 0 5px #000;
+
+  background-color: transparent;
+
+  &-prompt {
+    display: block;
+    margin-top: 20px;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+}

@@ -1,0 +1,51 @@
+@use '../../../../../../styles/variables' as *;
+
+.car {
+  padding: 0;
+  padding-top: 1rem;
+  border-bottom: 2px dotted $main-text-color;
+
+  &-control {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+
+  &-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  &-line {
+    display: flex;
+    gap: 1rem;
+    height: 3rem;
+    padding: 4px 4px -1px;
+  }
+
+  &-img {
+    position: relative;
+    width: 100px;
+    height: 1rem;
+  }
+
+  &-engine__btn {
+    height: 80% !important;
+    padding: 0.25rem !important;
+  }
+
+  &-table-element-track {
+    position: relative;
+    display: flex;
+    width: 100%;
+  }
+
+  &-table-element-flag {
+    position: absolute;
+    right: 105px;
+    transform: scale(-1, 1);
+    height: 90%;
+  }
+}

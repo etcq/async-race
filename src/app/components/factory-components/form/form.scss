@@ -1,0 +1,18 @@
+@use '../../../../styles/variables' as *;
+
+.garage-form {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 1rem;
+
+  &_input {
+    height: 2rem;
+    border: 1px solid $main-text-color;
+    border-radius: 0.2rem;
+
+    color: $paragraph-text-color;
+
+    background-color: $main-bg-color;
+  }
+}

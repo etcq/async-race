@@ -1,0 +1,15 @@
+@use '../../../../../../styles/variables' as *;
+
+.winner-table-element {
+  height: 2rem;
+
+  .table-cell {
+    padding: 0;
+    border: 3px solid $main-text-color;
+  }
+
+  .car-img {
+    width: 40px;
+    margin: 0 auto;
+  }
+}

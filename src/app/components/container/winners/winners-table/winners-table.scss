@@ -1,0 +1,7 @@
+@use '../../../../../styles/variables' as *;
+
+.winners-table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 2px solid $main-text-color;
+}

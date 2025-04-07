@@ -1,0 +1,13 @@
+@use '../../../../styles/variables' as *;
+
+.page-controls {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+
+  &-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+}
