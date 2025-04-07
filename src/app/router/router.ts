@@ -16,7 +16,7 @@ export default class Router {
   private handlePopState(): void {
     const path = globalThis.location.pathname;
     if (path === '/') {
-      globalThis.location.pathname = '/garage';
+      globalThis.location.href = '/garage';
       this.container.setContentToGarage();
     }
     switch (path) {
