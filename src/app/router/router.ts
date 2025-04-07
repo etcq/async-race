@@ -17,7 +17,6 @@ export default class Router {
     const path = globalThis.location.pathname;
     if (path === '/') {
       globalThis.location.href = '/garage';
-      this.container.setContentToGarage();
     }
     switch (path) {
       case `/garage`: {
